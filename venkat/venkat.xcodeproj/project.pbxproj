@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6639D52AEDACAB00C8CE67 /* final_bookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6639D42AEDACAB00C8CE67 /* final_bookingViewController.swift */; };
+		BE6639D72AEDCC4F00C8CE67 /* EPfinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6639D62AEDCC4F00C8CE67 /* EPfinalViewController.swift */; };
+		BE6639D92AEDD48400C8CE67 /* suitefinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6639D82AEDD48300C8CE67 /* suitefinalViewController.swift */; };
+		BEAB2CE32AEADBB800168664 /* MyCollectionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CE22AEADBB800168664 /* MyCollectionCellCollectionViewCell.swift */; };
+		BEAB2CE72AEB16A300168664 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CE62AEB16A300168664 /* AboutUsViewController.swift */; };
+		BEAB2CEB2AEB196300168664 /* hotel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BEAB2CEA2AEB195B00168664 /* hotel.mp4 */; };
+		BEAB2CED2AEB1FCF00168664 /* rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CEC2AEB1FCF00168664 /* rooms.swift */; };
+		BEAB2CEF2AEB200300168664 /* meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CEE2AEB200300168664 /* meeting.swift */; };
+		BEAB2CF12AEB201500168664 /* res.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CF02AEB201500168664 /* res.swift */; };
+		BEAB2CF32AEB204E00168664 /* feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CF22AEB204E00168664 /* feedback.swift */; };
+		BEAB2CF52AEB20BA00168664 /* report.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CF42AEB20BA00168664 /* report.swift */; };
+		BEAB2CF72AEB273000168664 /* standardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CF62AEB273000168664 /* standardViewController.swift */; };
+		BEAB2CF92AEB274300168664 /* excecutivepremierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CF82AEB274300168664 /* excecutivepremierViewController.swift */; };
+		BEAB2CFB2AEB274F00168664 /* suiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAB2CFA2AEB274F00168664 /* suiteViewController.swift */; };
+		BEC998E12AEA5C1800C63961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC998E02AEA5C1800C63961 /* AppDelegate.swift */; };
+		BEC998E32AEA5C1800C63961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC998E22AEA5C1800C63961 /* SceneDelegate.swift */; };
+		BEC998E52AEA5C1800C63961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC998E42AEA5C1800C63961 /* ViewController.swift */; };
+		BEC998E82AEA5C1800C63961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC998E62AEA5C1800C63961 /* Main.storyboard */; };
+		BEC998EA2AEA5C1A00C63961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC998E92AEA5C1A00C63961 /* Assets.xcassets */; };
+		BEC998ED2AEA5C1A00C63961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC998EB2AEA5C1A00C63961 /* LaunchScreen.storyboard */; };
+		BEC998F52AEA6AEF00C63961 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC998F42AEA6AEF00C63961 /* HomePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE6639D42AEDACAB00C8CE67 /* final_bookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final_bookingViewController.swift; sourceTree = "<group>"; };
+		BE6639D62AEDCC4F00C8CE67 /* EPfinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPfinalViewController.swift; sourceTree = "<group>"; };
+		BE6639D82AEDD48300C8CE67 /* suitefinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suitefinalViewController.swift; sourceTree = "<group>"; };
+		BEAB2CE22AEADBB800168664 /* MyCollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEAB2CE62AEB16A300168664 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		BEAB2CEA2AEB195B00168664 /* hotel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = hotel.mp4; path = ../../../../Downloads/hotel.mp4; sourceTree = "<group>"; };
+		BEAB2CEC2AEB1FCF00168664 /* rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rooms.swift; sourceTree = "<group>"; };
+		BEAB2CEE2AEB200300168664 /* meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meeting.swift; sourceTree = "<group>"; };
+		BEAB2CF02AEB201500168664 /* res.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = res.swift; sourceTree = "<group>"; };
+		BEAB2CF22AEB204E00168664 /* feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedback.swift; sourceTree = "<group>"; };
+		BEAB2CF42AEB20BA00168664 /* report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = report.swift; sourceTree = "<group>"; };
+		BEAB2CF62AEB273000168664 /* standardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = standardViewController.swift; sourceTree = "<group>"; };
+		BEAB2CF82AEB274300168664 /* excecutivepremierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = excecutivepremierViewController.swift; sourceTree = "<group>"; };
+		BEAB2CFA2AEB274F00168664 /* suiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suiteViewController.swift; sourceTree = "<group>"; };
+		BEC998DD2AEA5C1800C63961 /* venkat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = venkat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC998E02AEA5C1800C63961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC998E22AEA5C1800C63961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEC998E42AEA5C1800C63961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC998E72AEA5C1800C63961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC998E92AEA5C1A00C63961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC998EC2AEA5C1A00C63961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC998EE2AEA5C1A00C63961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC998F42AEA6AEF00C63961 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC998DA2AEA5C1800C63961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC998D42AEA5C1800C63961 = {
+			isa = PBXGroup;
+			children = (
+				BEC998DF2AEA5C1800C63961 /* venkat */,
+				BEC998DE2AEA5C1800C63961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC998DE2AEA5C1800C63961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC998DD2AEA5C1800C63961 /* venkat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC998DF2AEA5C1800C63961 /* venkat */ = {
+			isa = PBXGroup;
+			children = (
+				BEAB2CEA2AEB195B00168664 /* hotel.mp4 */,
+				BEC998E02AEA5C1800C63961 /* AppDelegate.swift */,
+				BEC998E22AEA5C1800C63961 /* SceneDelegate.swift */,
+				BEC998E42AEA5C1800C63961 /* ViewController.swift */,
+				BEC998E62AEA5C1800C63961 /* Main.storyboard */,
+				BEAB2CF62AEB273000168664 /* standardViewController.swift */,
+				BE6639D42AEDACAB00C8CE67 /* final_bookingViewController.swift */,
+				BEAB2CF82AEB274300168664 /* excecutivepremierViewController.swift */,
+				BE6639D62AEDCC4F00C8CE67 /* EPfinalViewController.swift */,
+				BEAB2CFA2AEB274F00168664 /* suiteViewController.swift */,
+				BE6639D82AEDD48300C8CE67 /* suitefinalViewController.swift */,
+				BEAB2CF42AEB20BA00168664 /* report.swift */,
+				BEAB2CF22AEB204E00168664 /* feedback.swift */,
+				BEAB2CF02AEB201500168664 /* res.swift */,
+				BEAB2CEE2AEB200300168664 /* meeting.swift */,
+				BEAB2CEC2AEB1FCF00168664 /* rooms.swift */,
+				BEC998F42AEA6AEF00C63961 /* HomePage.swift */,
+				BEAB2CE62AEB16A300168664 /* AboutUsViewController.swift */,
+				BEC998E92AEA5C1A00C63961 /* Assets.xcassets */,
+				BEAB2CE22AEADBB800168664 /* MyCollectionCellCollectionViewCell.swift */,
+				BEC998EB2AEA5C1A00C63961 /* LaunchScreen.storyboard */,
+				BEC998EE2AEA5C1A00C63961 /* Info.plist */,
+			);
+			path = venkat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC998DC2AEA5C1800C63961 /* venkat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC998F12AEA5C1A00C63961 /* Build configuration list for PBXNativeTarget "venkat" */;
+			buildPhases = (
+				BEC998D92AEA5C1800C63961 /* Sources */,
+				BEC998DA2AEA5C1800C63961 /* Frameworks */,
+				BEC998DB2AEA5C1800C63961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = venkat;
+			productName = venkat;
+			productReference = BEC998DD2AEA5C1800C63961 /* venkat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC998D52AEA5C1800C63961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BEC998DC2AEA5C1800C63961 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BEC998D82AEA5C1800C63961 /* Build configuration list for PBXProject "venkat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC998D42AEA5C1800C63961;
+			productRefGroup = BEC998DE2AEA5C1800C63961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC998DC2AEA5C1800C63961 /* venkat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC998DB2AEA5C1800C63961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB2CEB2AEB196300168664 /* hotel.mp4 in Resources */,
+				BEC998ED2AEA5C1A00C63961 /* LaunchScreen.storyboard in Resources */,
+				BEC998EA2AEA5C1A00C63961 /* Assets.xcassets in Resources */,
+				BEC998E82AEA5C1800C63961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC998D92AEA5C1800C63961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAB2CF92AEB274300168664 /* excecutivepremierViewController.swift in Sources */,
+				BEAB2CE32AEADBB800168664 /* MyCollectionCellCollectionViewCell.swift in Sources */,
+				BEAB2CF12AEB201500168664 /* res.swift in Sources */,
+				BEAB2CFB2AEB274F00168664 /* suiteViewController.swift in Sources */,
+				BE6639D72AEDCC4F00C8CE67 /* EPfinalViewController.swift in Sources */,
+				BE6639D92AEDD48400C8CE67 /* suitefinalViewController.swift in Sources */,
+				BEAB2CF32AEB204E00168664 /* feedback.swift in Sources */,
+				BEAB2CEF2AEB200300168664 /* meeting.swift in Sources */,
+				BEC998E52AEA5C1800C63961 /* ViewController.swift in Sources */,
+				BE6639D52AEDACAB00C8CE67 /* final_bookingViewController.swift in Sources */,
+				BEC998E12AEA5C1800C63961 /* AppDelegate.swift in Sources */,
+				BEC998E32AEA5C1800C63961 /* SceneDelegate.swift in Sources */,
+				BEAB2CF72AEB273000168664 /* standardViewController.swift in Sources */,
+				BEAB2CED2AEB1FCF00168664 /* rooms.swift in Sources */,
+				BEAB2CE72AEB16A300168664 /* AboutUsViewController.swift in Sources */,
+				BEC998F52AEA6AEF00C63961 /* HomePage.swift in Sources */,
+				BEAB2CF52AEB20BA00168664 /* report.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC998E62AEA5C1800C63961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC998E72AEA5C1800C63961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC998EB2AEA5C1A00C63961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC998EC2AEA5C1A00C63961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC998EF2AEA5C1A00C63961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC998F02AEA5C1A00C63961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC998F22AEA5C1A00C63961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GT443GA8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = venkat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.harikiran.venkat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC998F32AEA5C1A00C63961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GT443GA8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = venkat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.harikiran.venkat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC998D82AEA5C1800C63961 /* Build configuration list for PBXProject "venkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC998EF2AEA5C1A00C63961 /* Debug */,
+				BEC998F02AEA5C1A00C63961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC998F12AEA5C1A00C63961 /* Build configuration list for PBXNativeTarget "venkat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC998F22AEA5C1A00C63961 /* Debug */,
+				BEC998F32AEA5C1A00C63961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC998D52AEA5C1800C63961 /* Project object */;
+}
